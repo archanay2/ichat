@@ -1,6 +1,4 @@
-const { fileURLToPath } = require("http://localhost:5000");
-
-const socket = io('http://localhost:5000');
+const socket = io('http://localhost:5500');
 
 const form = document.getElementById('send-container');
 
